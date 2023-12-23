@@ -6,7 +6,6 @@ import numpy as np
 
 app = Flask(__name__)
 
-# Load the pre-trained model
 model = joblib.load(open('final_model.joblib', 'rb'))
 
 
